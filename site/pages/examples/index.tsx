@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 const Example = () => {
   const router = useRouter()
-
+// useEffect function
   useEffect(() => {
     router.replace(`/examples/richtext`)
   })
